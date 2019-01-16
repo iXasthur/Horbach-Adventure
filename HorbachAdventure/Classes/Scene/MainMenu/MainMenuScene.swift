@@ -7,8 +7,6 @@
 //
 
 import SpriteKit
-//import GameplayKit
-//import Foundation
 
 class MainMenuScene: SKScene{
     //Buttons

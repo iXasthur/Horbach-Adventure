@@ -7,7 +7,6 @@
 //
 
 import SpriteKit
-//import Foundation
 
 class player:SKSpriteNode {
     var netherFire: SKEmitterNode!

@@ -7,27 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511B4D2421B1BCFB0041B365 /* Minecrafter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 511B4D2321B1BCE80041B365 /* Minecrafter.ttf */; };
+		511C273C2072CF38001538D9 /* GS_Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511C273B2072CF38001538D9 /* GS_Contacts.swift */; };
+		511DB43E21662BCF002F1843 /* stdLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511DB43D21662BCF002F1843 /* stdLabel.swift */; };
+		511DB4402166393C002F1843 /* Health.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511DB43F2166393C002F1843 /* Health.swift */; };
+		511DB44221663AB9002F1843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511DB44121663AB8002F1843 /* Assets.xcassets */; };
+		5121BB2D21C02787008F5244 /* MMOptionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5121BB2C21C02787008F5244 /* MMOptionsScene.swift */; };
+		5121BB2F21C027AC008F5244 /* MMLevelSelectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5121BB2E21C027AC008F5244 /* MMLevelSelectScene.swift */; };
+		5121BB3321C02B84008F5244 /* MMOS_Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5121BB3221C02B84008F5244 /* MMOS_Touches.swift */; };
+		5121BB3521C02B98008F5244 /* MMLSS_Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5121BB3421C02B98008F5244 /* MMLSS_Touches.swift */; };
+		5123D730215CF7D300B2C07C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5123D72F215CF7D300B2C07C /* Player.swift */; };
+		512E2CBB21C23D3800A8E90F /* MMStarfield_G.sks in Resources */ = {isa = PBXBuildFile; fileRef = 512E2CB921C23D3800A8E90F /* MMStarfield_G.sks */; };
+		512E2CBC21C23D3800A8E90F /* MMStarfield_P.sks in Resources */ = {isa = PBXBuildFile; fileRef = 512E2CBA21C23D3800A8E90F /* MMStarfield_P.sks */; };
+		512E2CBE21C2448500A8E90F /* MMLevelSelectScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 512E2CBD21C2448500A8E90F /* MMLevelSelectScene.sks */; };
+		512E2CC021C2451B00A8E90F /* MMOptionsScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 512E2CBF21C2451B00A8E90F /* MMOptionsScene.sks */; };
+		512E33CE2071265D005B7ADF /* MyRain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 512E33CD2071265D005B7ADF /* MyRain.sks */; };
+		51680A2121B1B469005253B0 /* MMS_Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51680A2021B1B469005253B0 /* MMS_Touches.swift */; };
+		5172C20820711C2B00329B52 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5172C20620711C2B00329B52 /* Starfield.sks */; };
+		5172C20B20711C8D00329B52 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5172C20A20711C8D00329B52 /* Explosion.sks */; };
+		517D7091215AB3380089C064 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 517D7090215AB3380089C064 /* MainMenuScene.sks */; };
+		517D7093215AB4DE0089C064 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517D7092215AB4DE0089C064 /* MainMenuScene.swift */; };
+		5184229421D42D87006257AB /* EagleEnemy.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5184229321D42D87006257AB /* EagleEnemy.atlas */; };
+		51885E4A2071824A00E322E9 /* GS_Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51885E492071824A00E322E9 /* GS_Touches.swift */; };
+		518E45C7215ABB0B009AF652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517D7096215AB9970089C064 /* Main.storyboard */; };
+		518E45D0215ACA1A009AF652 /* LPScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 518E45CF215ACA1A009AF652 /* LPScene.sks */; };
+		518E45D8215ACC69009AF652 /* WolfEnemy+y.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 518E45D4215ACC69009AF652 /* WolfEnemy+y.atlas */; };
+		518E45DA215ACC69009AF652 /* WolfEnemy+b.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 518E45D6215ACC69009AF652 /* WolfEnemy+b.atlas */; };
+		518E45DB215ACC69009AF652 /* BlackCat+.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 518E45D7215ACC69009AF652 /* BlackCat+.atlas */; };
+		51A9C4EB21601FA2006C1BB6 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A9C4EA21601FA2006C1BB6 /* Enemy.swift */; };
+		51B9362D21C403AE00711A36 /* stdLevelSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9362C21C403AE00711A36 /* stdLevelSelector.swift */; };
+		51CFF2C72072A89C008E2B04 /* MyRain+.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51CFF2C62072A7DB008E2B04 /* MyRain+.sks */; };
+		51D2CF53215D595000FB98C7 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2CF52215D595000FB98C7 /* Ground.swift */; };
+		51D2CF55215D596000FB98C7 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2CF54215D596000FB98C7 /* Background.swift */; };
+		51D6E52921A6848C0089B5B0 /* stdButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D6E52821A6848C0089B5B0 /* stdButton.swift */; };
+		51DB277A21C23ADF00C58EA0 /* MMStarfield_Y.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51DB277821C23ADF00C58EA0 /* MMStarfield_Y.sks */; };
+		51DB536121D82CD500AB214E /* BlackCat+HD.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 51DB536021D82CD500AB214E /* BlackCat+HD.atlas */; };
+		51DB536321D82CE000AB214E /* EagleEnemy+HD.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 51DB536221D82CE000AB214E /* EagleEnemy+HD.atlas */; };
+		51F7B0212163EDA90059F2BB /* GS_Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B0202163EDA90059F2BB /* GS_Utilities.swift */; };
 		51FAEF552071139B005E48E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FAEF542071139B005E48E7 /* AppDelegate.swift */; };
 		51FAEF572071139B005E48E7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51FAEF562071139B005E48E7 /* GameScene.sks */; };
-		51FAEF592071139B005E48E7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51FAEF582071139B005E48E7 /* Actions.sks */; };
 		51FAEF5B2071139B005E48E7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FAEF5A2071139B005E48E7 /* GameScene.swift */; };
 		51FAEF5D2071139B005E48E7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FAEF5C2071139B005E48E7 /* GameViewController.swift */; };
-		51FAEF602071139B005E48E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FAEF5E2071139B005E48E7 /* Main.storyboard */; };
-		51FAEF622071139B005E48E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FAEF612071139B005E48E7 /* Assets.xcassets */; };
 		51FAEF652071139B005E48E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FAEF632071139B005E48E7 /* LaunchScreen.storyboard */; };
+		51FAEF6D207119EA005E48E7 /* Firefly.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51FAEF6C207119EA005E48E7 /* Firefly.sks */; };
+		51FAEF6F20711A62005E48E7 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51FAEF6E20711A62005E48E7 /* Fire.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		511B4D2321B1BCE80041B365 /* Minecrafter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecrafter.ttf; path = HorbachAdventure/Other/Minecrafter.ttf; sourceTree = SOURCE_ROOT; };
+		511C273B2072CF38001538D9 /* GS_Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GS_Contacts.swift; sourceTree = "<group>"; };
+		511DB43D21662BCF002F1843 /* stdLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stdLabel.swift; sourceTree = "<group>"; };
+		511DB43F2166393C002F1843 /* Health.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health.swift; sourceTree = "<group>"; };
+		511DB44121663AB8002F1843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5121BB2C21C02787008F5244 /* MMOptionsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOptionsScene.swift; sourceTree = "<group>"; };
+		5121BB2E21C027AC008F5244 /* MMLevelSelectScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMLevelSelectScene.swift; sourceTree = "<group>"; };
+		5121BB3221C02B84008F5244 /* MMOS_Touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOS_Touches.swift; sourceTree = "<group>"; };
+		5121BB3421C02B98008F5244 /* MMLSS_Touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMLSS_Touches.swift; sourceTree = "<group>"; };
+		5123D72F215CF7D300B2C07C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		512E2CB921C23D3800A8E90F /* MMStarfield_G.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MMStarfield_G.sks; sourceTree = "<group>"; };
+		512E2CBA21C23D3800A8E90F /* MMStarfield_P.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MMStarfield_P.sks; sourceTree = "<group>"; };
+		512E2CBD21C2448500A8E90F /* MMLevelSelectScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MMLevelSelectScene.sks; sourceTree = "<group>"; };
+		512E2CBF21C2451B00A8E90F /* MMOptionsScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MMOptionsScene.sks; sourceTree = "<group>"; };
+		512E33CD2071265D005B7ADF /* MyRain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyRain.sks; sourceTree = "<group>"; };
+		51680A2021B1B469005253B0 /* MMS_Touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMS_Touches.swift; sourceTree = "<group>"; };
+		5172C20620711C2B00329B52 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		5172C20A20711C8D00329B52 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		517D7090215AB3380089C064 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		517D7092215AB4DE0089C064 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		517D7096215AB9970089C064 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5184229321D42D87006257AB /* EagleEnemy.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = EagleEnemy.atlas; sourceTree = "<group>"; };
+		51885E492071824A00E322E9 /* GS_Touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GS_Touches.swift; sourceTree = "<group>"; };
+		518E45CF215ACA1A009AF652 /* LPScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LPScene.sks; sourceTree = "<group>"; };
+		518E45D4215ACC69009AF652 /* WolfEnemy+y.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "WolfEnemy+y.atlas"; sourceTree = "<group>"; };
+		518E45D6215ACC69009AF652 /* WolfEnemy+b.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "WolfEnemy+b.atlas"; sourceTree = "<group>"; };
+		518E45D7215ACC69009AF652 /* BlackCat+.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "BlackCat+.atlas"; sourceTree = "<group>"; };
+		51A9C4EA21601FA2006C1BB6 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		51B9362C21C403AE00711A36 /* stdLevelSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stdLevelSelector.swift; sourceTree = "<group>"; };
+		51CFF2C62072A7DB008E2B04 /* MyRain+.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "MyRain+.sks"; sourceTree = "<group>"; };
+		51D2CF52215D595000FB98C7 /* Ground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		51D2CF54215D596000FB98C7 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		51D6E52821A6848C0089B5B0 /* stdButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stdButton.swift; sourceTree = "<group>"; };
+		51DB277821C23ADF00C58EA0 /* MMStarfield_Y.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MMStarfield_Y.sks; sourceTree = "<group>"; };
+		51DB536021D82CD500AB214E /* BlackCat+HD.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "BlackCat+HD.atlas"; sourceTree = "<group>"; };
+		51DB536221D82CE000AB214E /* EagleEnemy+HD.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "EagleEnemy+HD.atlas"; sourceTree = "<group>"; };
+		51F7B0202163EDA90059F2BB /* GS_Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GS_Utilities.swift; sourceTree = "<group>"; };
 		51FAEF512071139B005E48E7 /* HorbachAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorbachAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FAEF542071139B005E48E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51FAEF562071139B005E48E7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		51FAEF582071139B005E48E7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		51FAEF5A2071139B005E48E7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		51FAEF5C2071139B005E48E7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		51FAEF5F2071139B005E48E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51FAEF612071139B005E48E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51FAEF642071139B005E48E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51FAEF662071139B005E48E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FAEF6C207119EA005E48E7 /* Firefly.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Firefly.sks; sourceTree = "<group>"; };
+		51FAEF6E20711A62005E48E7 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +113,195 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511DB43C21662BB4002F1843 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				511DB43D21662BCF002F1843 /* stdLabel.swift */,
+				51D6E52821A6848C0089B5B0 /* stdButton.swift */,
+				51B9362C21C403AE00711A36 /* stdLevelSelector.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5121BB3021C027B4008F5244 /* MainMenuAdditionalScenes */ = {
+			isa = PBXGroup;
+			children = (
+				5121BB2C21C02787008F5244 /* MMOptionsScene.swift */,
+				5121BB2E21C027AC008F5244 /* MMLevelSelectScene.swift */,
+				5121BB3121C02B2F008F5244 /* MMAScenes_Extentions */,
+			);
+			path = MainMenuAdditionalScenes;
+			sourceTree = "<group>";
+		};
+		5121BB3121C02B2F008F5244 /* MMAScenes_Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5121BB3221C02B84008F5244 /* MMOS_Touches.swift */,
+				5121BB3421C02B98008F5244 /* MMLSS_Touches.swift */,
+			);
+			path = MMAScenes_Extentions;
+			sourceTree = "<group>";
+		};
+		5121BB3621C02CB4008F5244 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				517D7092215AB4DE0089C064 /* MainMenuScene.swift */,
+				51680A1F21B1B441005253B0 /* MMScene_Extentions */,
+				5121BB3021C027B4008F5244 /* MainMenuAdditionalScenes */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		5121BB3721C02CD4008F5244 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				5121BB3821C02CF6008F5244 /* L1_Desert */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		5121BB3821C02CF6008F5244 /* L1_Desert */ = {
+			isa = PBXGroup;
+			children = (
+				51FAEF5A2071139B005E48E7 /* GameScene.swift */,
+				51F7B0222163EE7D0059F2BB /* GameScene_Extentions */,
+			);
+			path = L1_Desert;
+			sourceTree = "<group>";
+		};
+		5123D72E215CF7BD00B2C07C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				5123D72F215CF7D300B2C07C /* Player.swift */,
+				511DB43F2166393C002F1843 /* Health.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		51680A1F21B1B441005253B0 /* MMScene_Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				51680A2021B1B469005253B0 /* MMS_Touches.swift */,
+			);
+			path = MMScene_Extentions;
+			sourceTree = "<group>";
+		};
+		517D7094215AB6A30089C064 /* Emitters */ = {
+			isa = PBXGroup;
+			children = (
+				5172C20A20711C8D00329B52 /* Explosion.sks */,
+				5172C20620711C2B00329B52 /* Starfield.sks */,
+				51FAEF6E20711A62005E48E7 /* Fire.sks */,
+				51FAEF6C207119EA005E48E7 /* Firefly.sks */,
+				512E33CD2071265D005B7ADF /* MyRain.sks */,
+				51CFF2C62072A7DB008E2B04 /* MyRain+.sks */,
+				51DB277821C23ADF00C58EA0 /* MMStarfield_Y.sks */,
+				512E2CB921C23D3800A8E90F /* MMStarfield_G.sks */,
+				512E2CBA21C23D3800A8E90F /* MMStarfield_P.sks */,
+			);
+			name = Emitters;
+			path = HorbachAdventure/Emitters;
+			sourceTree = SOURCE_ROOT;
+		};
+		518E45C8215ABC31009AF652 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				518E45CF215ACA1A009AF652 /* LPScene.sks */,
+				517D7090215AB3380089C064 /* MainMenuScene.sks */,
+				51FAEF562071139B005E48E7 /* GameScene.sks */,
+				512E2CBD21C2448500A8E90F /* MMLevelSelectScene.sks */,
+				512E2CBF21C2451B00A8E90F /* MMOptionsScene.sks */,
+			);
+			name = Scenes;
+			path = HorbachAdventure/Scenes;
+			sourceTree = SOURCE_ROOT;
+		};
+		518E45CD215AC988009AF652 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51FAEF5C2071139B005E48E7 /* GameViewController.swift */,
+			);
+			name = ViewControllers;
+			path = HorbachAdventure/ViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		518E45CE215AC9A0009AF652 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				511DB43C21662BB4002F1843 /* Utilities */,
+				51D2CF51215D591400FB98C7 /* Terrain */,
+				51D2CF56215D5DC000FB98C7 /* Enemy */,
+				5123D72E215CF7BD00B2C07C /* Player */,
+				518E45DC215AD82A009AF652 /* Scene */,
+			);
+			name = Classes;
+			path = HorbachAdventure/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		518E45D3215ACB0D009AF652 /* ImageData */ = {
+			isa = PBXGroup;
+			children = (
+				511DB44121663AB8002F1843 /* Assets.xcassets */,
+				518E45D7215ACC69009AF652 /* BlackCat+.atlas */,
+				51DB536021D82CD500AB214E /* BlackCat+HD.atlas */,
+				518E45D6215ACC69009AF652 /* WolfEnemy+b.atlas */,
+				518E45D4215ACC69009AF652 /* WolfEnemy+y.atlas */,
+				5184229321D42D87006257AB /* EagleEnemy.atlas */,
+				51DB536221D82CE000AB214E /* EagleEnemy+HD.atlas */,
+			);
+			name = ImageData;
+			path = HorbachAdventure/ImageData;
+			sourceTree = SOURCE_ROOT;
+		};
+		518E45DC215AD82A009AF652 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5121BB3621C02CB4008F5244 /* MainMenu */,
+				5121BB3721C02CD4008F5244 /* Levels */,
+			);
+			name = Scene;
+			path = HorbachAdventure/Classes/Scene;
+			sourceTree = SOURCE_ROOT;
+		};
+		518E45E2215ADAEA009AF652 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				517D7096215AB9970089C064 /* Main.storyboard */,
+				51FAEF632071139B005E48E7 /* LaunchScreen.storyboard */,
+				51FAEF542071139B005E48E7 /* AppDelegate.swift */,
+				511B4D2321B1BCE80041B365 /* Minecrafter.ttf */,
+			);
+			name = Other;
+			path = HorbachAdventure/Other;
+			sourceTree = SOURCE_ROOT;
+		};
+		51D2CF51215D591400FB98C7 /* Terrain */ = {
+			isa = PBXGroup;
+			children = (
+				51D2CF52215D595000FB98C7 /* Ground.swift */,
+				51D2CF54215D596000FB98C7 /* Background.swift */,
+			);
+			path = Terrain;
+			sourceTree = "<group>";
+		};
+		51D2CF56215D5DC000FB98C7 /* Enemy */ = {
+			isa = PBXGroup;
+			children = (
+				51A9C4EA21601FA2006C1BB6 /* Enemy.swift */,
+			);
+			path = Enemy;
+			sourceTree = "<group>";
+		};
+		51F7B0222163EE7D0059F2BB /* GameScene_Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				51885E492071824A00E322E9 /* GS_Touches.swift */,
+				511C273B2072CF38001538D9 /* GS_Contacts.swift */,
+				51F7B0202163EDA90059F2BB /* GS_Utilities.swift */,
+			);
+			path = GameScene_Extentions;
+			sourceTree = "<group>";
+		};
 		51FAEF482071139B005E48E7 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +321,12 @@
 		51FAEF532071139B005E48E7 /* HorbachAdventure */ = {
 			isa = PBXGroup;
 			children = (
-				51FAEF542071139B005E48E7 /* AppDelegate.swift */,
-				51FAEF562071139B005E48E7 /* GameScene.sks */,
-				51FAEF582071139B005E48E7 /* Actions.sks */,
-				51FAEF5A2071139B005E48E7 /* GameScene.swift */,
-				51FAEF5C2071139B005E48E7 /* GameViewController.swift */,
-				51FAEF5E2071139B005E48E7 /* Main.storyboard */,
-				51FAEF612071139B005E48E7 /* Assets.xcassets */,
-				51FAEF632071139B005E48E7 /* LaunchScreen.storyboard */,
+				517D7094215AB6A30089C064 /* Emitters */,
+				518E45C8215ABC31009AF652 /* Scenes */,
+				518E45CE215AC9A0009AF652 /* Classes */,
+				518E45CD215AC988009AF652 /* ViewControllers */,
+				518E45D3215ACB0D009AF652 /* ImageData */,
+				518E45E2215ADAEA009AF652 /* Other */,
 				51FAEF662071139B005E48E7 /* Info.plist */,
 			);
 			path = HorbachAdventure;
@@ -100,11 +359,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = FunnyZeks;
 				TargetAttributes = {
 					51FAEF502071139B005E48E7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,11 +392,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51FAEF602071139B005E48E7 /* Main.storyboard in Resources */,
+				51DB277A21C23ADF00C58EA0 /* MMStarfield_Y.sks in Resources */,
+				512E2CBB21C23D3800A8E90F /* MMStarfield_G.sks in Resources */,
+				518E45D0215ACA1A009AF652 /* LPScene.sks in Resources */,
+				51FAEF6F20711A62005E48E7 /* Fire.sks in Resources */,
+				518E45DA215ACC69009AF652 /* WolfEnemy+b.atlas in Resources */,
+				51CFF2C72072A89C008E2B04 /* MyRain+.sks in Resources */,
+				512E2CC021C2451B00A8E90F /* MMOptionsScene.sks in Resources */,
+				517D7091215AB3380089C064 /* MainMenuScene.sks in Resources */,
+				511DB44221663AB9002F1843 /* Assets.xcassets in Resources */,
+				518E45C7215ABB0B009AF652 /* Main.storyboard in Resources */,
+				5172C20820711C2B00329B52 /* Starfield.sks in Resources */,
+				51FAEF6D207119EA005E48E7 /* Firefly.sks in Resources */,
 				51FAEF572071139B005E48E7 /* GameScene.sks in Resources */,
-				51FAEF622071139B005E48E7 /* Assets.xcassets in Resources */,
+				518E45D8215ACC69009AF652 /* WolfEnemy+y.atlas in Resources */,
+				5184229421D42D87006257AB /* EagleEnemy.atlas in Resources */,
+				51DB536121D82CD500AB214E /* BlackCat+HD.atlas in Resources */,
 				51FAEF652071139B005E48E7 /* LaunchScreen.storyboard in Resources */,
-				51FAEF592071139B005E48E7 /* Actions.sks in Resources */,
+				5172C20B20711C8D00329B52 /* Explosion.sks in Resources */,
+				518E45DB215ACC69009AF652 /* BlackCat+.atlas in Resources */,
+				51DB536321D82CE000AB214E /* EagleEnemy+HD.atlas in Resources */,
+				512E33CE2071265D005B7ADF /* MyRain.sks in Resources */,
+				512E2CBE21C2448500A8E90F /* MMLevelSelectScene.sks in Resources */,
+				511B4D2421B1BCFB0041B365 /* Minecrafter.ttf in Resources */,
+				512E2CBC21C23D3800A8E90F /* MMStarfield_P.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,23 +426,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511C273C2072CF38001538D9 /* GS_Contacts.swift in Sources */,
 				51FAEF5B2071139B005E48E7 /* GameScene.swift in Sources */,
+				51680A2121B1B469005253B0 /* MMS_Touches.swift in Sources */,
+				51D6E52921A6848C0089B5B0 /* stdButton.swift in Sources */,
+				5121BB3521C02B98008F5244 /* MMLSS_Touches.swift in Sources */,
+				51B9362D21C403AE00711A36 /* stdLevelSelector.swift in Sources */,
+				51A9C4EB21601FA2006C1BB6 /* Enemy.swift in Sources */,
 				51FAEF5D2071139B005E48E7 /* GameViewController.swift in Sources */,
+				5123D730215CF7D300B2C07C /* Player.swift in Sources */,
+				5121BB2D21C02787008F5244 /* MMOptionsScene.swift in Sources */,
+				51885E4A2071824A00E322E9 /* GS_Touches.swift in Sources */,
+				51D2CF53215D595000FB98C7 /* Ground.swift in Sources */,
 				51FAEF552071139B005E48E7 /* AppDelegate.swift in Sources */,
+				517D7093215AB4DE0089C064 /* MainMenuScene.swift in Sources */,
+				51D2CF55215D596000FB98C7 /* Background.swift in Sources */,
+				5121BB3321C02B84008F5244 /* MMOS_Touches.swift in Sources */,
+				511DB4402166393C002F1843 /* Health.swift in Sources */,
+				511DB43E21662BCF002F1843 /* stdLabel.swift in Sources */,
+				51F7B0212163EDA90059F2BB /* GS_Utilities.swift in Sources */,
+				5121BB2F21C027AC008F5244 /* MMLevelSelectScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51FAEF5E2071139B005E48E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51FAEF5F2071139B005E48E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51FAEF632071139B005E48E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -189,6 +477,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -196,6 +485,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -223,7 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -246,6 +536,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -253,6 +544,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -274,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -289,10 +581,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2RFRHVPMQL;
 				INFOPLIST_FILE = HorbachAdventure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FZ.HorbachAdventure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -304,10 +597,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2RFRHVPMQL;
 				INFOPLIST_FILE = HorbachAdventure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FZ.HorbachAdventure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
